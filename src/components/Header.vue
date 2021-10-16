@@ -1,5 +1,5 @@
 <template>
-     <nav class=" bg-bg_header  bg-no-repeat">
+     <nav class=" bg-bg_header   bg-no-repeat">
         <div class="items-center h-screen flex flex-wrap">
 
             <div class=" md:w-5/12  px-4">

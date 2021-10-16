@@ -4,12 +4,22 @@
 import Header from './components/Header.vue';
 import Content from './components/Content.vue';
 import Class from './components/Class.vue';
+import Agenda from './components/Agenda.vue';
+import News from './components/News.vue';
+import Advantage from './components/Advantage.vue';
+import Question from './components/Question.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
     <Header />
     <Content />
     <Class />
+    <Agenda />
+    <News />
+    <Advantage />
+    <Question />
+    <Footer />
 </template>
 
 <style>
