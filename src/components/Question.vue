@@ -1,7 +1,7 @@
 <template>
     <nav class="bg-qa-pattern  bg-repeat">
         <h2 class="text-6xl pt-12 text-gray-900 font-bold pb-12">常見問題</h2>
-        <div class="row flex flex-col pt-0 p-72">
+        <div class="row flex flex-col pt-0 p-36 md:p-72">
             <img src="../assets/q1.png" alt="">
             <img src="../assets/qcircle.png" alt="">
             <span class="text-black text-2xl font-bold">本課程採私人權限的「線上直播」，為維護你的權益，請勿與他人共用專屬連結。</span>
