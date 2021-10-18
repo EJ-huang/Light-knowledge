@@ -7,6 +7,7 @@ module.exports = {
          'buffett-pattern': "url('src/assets/buffett.png')",
          'class-pattern': "url('src/assets/bg_class.gif')",
          'bg_header': "url('src/assets/bg_header.gif')",
+         'bg_header1': "url('src/assets/bg_header1.gif')",
          'agenda-pattern' : "url('src/assets/bg_header.gif')",
          'class2-pattern' : "url('src/assets/class.png')",
          'qa-pattern' : "url('src/assets/bg_qa.gif')",
@@ -46,7 +47,13 @@ module.exports = {
        'secondary': '#ffed4a',
        'danger': '#e3342f',
        'blue_white' : '#86B3E0'
-      })
+      }),
+      height: {
+       sm: '8px',
+       md: '16px',
+       lg: '24px',
+       863: '863px',
+      }
     },
   },
   variants: {

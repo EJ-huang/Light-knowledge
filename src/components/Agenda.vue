@@ -8,7 +8,7 @@
                     <span class="text-pink-light text-7xl font-bold">01</span>
                     <p class="bg-pink-light text-white">Wana</p>
                 </div>
-                <div class="main p-4 ">
+                <div v-scrollanimation class="main p-4 ">
                     
                     <img src="../assets/teacher1.png" id="one" alt="">
                     <h2 class="text-left font-bold text-2xl ">自媒體必修</h2>
@@ -142,11 +142,16 @@
         counter-increment: section;
         content: counter(section)".";
     }
-    // h5::before {
-    //     color: #FE8A8A;
-    //     counter-increment: listCounter;
-    //     content: counter(listCounter)".";
-    // }
+        .before-enter{
+        opacity: 0;
+        transform: translateY(100px);
+        transition: all 2s ease-out;
+    }
+    .enter{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
 
 
 </style>
